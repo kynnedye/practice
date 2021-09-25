@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: rgb(235, 235, 235);
+    font-weight: 700;
+  }
+  
+  .plan-type,
+  button {
+    font-size: 1.25rem;
+  }
+  .price {
+    color: rgb(102, 102, 102);
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .sub-title {
+    font-weight: 300;
+    font-size: 0.75rem;
+    margin-bottom: 4rem;
+  }
+  
+  .cta {
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    width: 90%;
+    padding: 0.65em 0;
+    border-radius: 5px;
+  }
+  #dbtn {
+    border: none;
+  }
+  
+  .purple {
+    background: rgb(170, 129, 180);
+    transition: 0.25s;
+  }
+  .purple:hover,
+  .purple:focus {
+    background: rgb(179, 162, 184);
+  }
+  .green {
+    background: rgb(142, 192, 66);
+  }
+  .green:hover,
+  .green:focus {
+    background: rgb(198, 218, 171);
+  }
+  .blue {
+    background: rgb(93, 132, 168);
+  }
+  .blue:hover,
+  .blue:focus {
+    background: rgb(155, 196, 235);
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .price-plan {
+    border: 1px solid rgb(235, 235, 235);
+    background: #fff;
+    padding: 2em;
+    width: 22%;
+    text-align: center;
+    position: relative;
+  }
+  .tittle {
+    background-color: rgb(142, 192, 66);
+    width: 98%;
+    border-style: none;
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    padding: 0.3em;
+    top: -44;
+  }
+  .features {
+    width: 100%;
+  }
+  .row {
+    width: 22%;
+    padding: 0.5em 0;
+  }
+  td {
+    width: 22%;
+    text-align: center;
+    background: white;
+  }
+  
+  .arrow {
+    text-align: left;
+    padding-left: 2em;
+  }
+  
+  .down,
+  .up {
+    width: 25px;
+    padding-right: 0.75em;
+    background: rgb(235, 235, 235);
+  }
+  .down-arrow,
+  .up-arrow {
+    border: none;
+    background: rgb(235, 235, 235);
+  }
+  .up-arrow {
+    display: none;
+  }
+  .hidden,
+  .hidden2,
+  .hidden3,
+  .hidden4,
+  .hidden5,
+  .hidden6 {
+    display: none;
+  }
+  
+
+
+
+
+
